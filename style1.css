@@ -1,20 +1,36 @@
+k/* الخلفية الكاملة */
 body {
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #fce4ec, #e3f2fd);
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
+/* صندوق في الوسط */
+.container {
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* العنوان */
 h1 {
   color: #d63384;
-  font-size: 28px;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
 
+/* النصوص */
 p {
-  color: #333;
+  color: #555;
   font-size: 18px;
+  margin: 10px 0;
 }
 
+/* الروابط */
 a {
   color: #007bff;
   text-decoration: none;
@@ -23,4 +39,10 @@ a {
 
 a:hover {
   color: #0056b3;
+}
+
+/* البريد الإلكتروني يكون بخط غامق */
+.email {
+  font-weight: bold;
+  color: #444;
 }
