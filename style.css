@@ -1,3 +1,4 @@
+/* الخلفية */
 body {
   background: linear-gradient(135deg, #fce4ec, #e3f2fd);
   font-family: Arial, sans-serif;
@@ -5,55 +6,51 @@ body {
   padding: 30px;
 }
 
+/* الصندوق */
 .container {
   background-color: white;
-  width: 350px;
+  width: 400px;
   margin: auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.profile {
-  width: 120px;
-  height: 120px;
+/* الصورة */
+.profile-img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  margin-bottom: 10px;
-  border: 3px solid #d63384;
+  margin-bottom: 15px;
 }
 
+/* العنوان */
 h1 {
   color: #d63384;
-  font-size: 24px;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
 
+/* النص */
 p {
   color: #555;
-  font-size: 16px;
+  font-size: 18px;
   margin: 10px 0;
 }
 
+/* الروابط */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* الإيميل */
 .email {
   font-weight: bold;
   color: #444;
-}
-
-.buttons {
-  margin-top: 15px;
-}
-
-.btn {
-  display: inline-block;
-  background: #d63384;
-  color: white;
-  padding: 10px 15px;
-  margin: 5px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #b0276c;
 }
